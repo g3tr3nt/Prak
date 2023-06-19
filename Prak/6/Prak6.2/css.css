@@ -1,0 +1,13 @@
+.A{
+    border: 1px solid black;
+    padding: 2px;
+}
+td{
+    border: 1px solid black;
+    padding: 5px;
+}
+li{
+    list-style-type: none;
+    padding: 5px;
+    width: 120px;
+}

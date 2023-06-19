@@ -1,0 +1,26 @@
+*{
+    font-family: Gabriola;
+}
+li{
+    list-style-type: none;
+    padding: 5px;
+    font-size: 30px;
+    width: 10px;
+    position: relative;
+    left: 40%;
+}
+p{
+    position: relative;
+    left: 28%;
+    font-size: 30px;
+}
+h1{
+    position: relative;
+    left: 20%;
+}
+div{
+    position: absolute;
+    left: 30%;
+    border: 2px solid black;
+    width: 700px;
+}

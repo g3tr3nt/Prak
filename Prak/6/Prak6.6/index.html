@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<form action="mailto:recipient@example.com" method="post" enctype="text/plain">
+    <label>Ім'я:</label>
+    <input type="text" id="name" name="name" onChange="msg(this.form)"><br>
+
+    <label>Тема:</label>
+    <input type="text" id="subject" name="theme" onChange="msg(this.form)"><br>
+
+    <label>Повідомлення:</label><br>
+    <textarea id="message" name="message" onChange="msg(this.form)"></textarea><br>
+
+    <input type="submit" value="Відправити">
+</form>
+
+
+<script src="java.js"></script>
+</body>
+</html>

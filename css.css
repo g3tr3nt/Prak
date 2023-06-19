@@ -1,0 +1,15 @@
+*{
+    font-family: Gabriola;
+    font-size: 25px;
+    padding: 5px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    font-size: 30px;
+}
